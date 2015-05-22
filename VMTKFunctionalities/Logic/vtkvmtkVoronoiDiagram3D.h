@@ -29,11 +29,11 @@ Version:   $Revision: 1.4 $
 #include "vtkIdList.h"
 #include "vtkCellArray.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
 class vtkUnstructuredGrid;
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkVoronoiDiagram3D : public vtkPolyDataAlgorithm
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkVoronoiDiagram3D : public vtkPolyDataAlgorithm
 {
   public: 
   vtkTypeMacro(vtkvmtkVoronoiDiagram3D,vtkPolyDataAlgorithm);

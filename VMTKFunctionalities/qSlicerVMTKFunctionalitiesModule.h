@@ -26,8 +26,7 @@
 class qSlicerVMTKFunctionalitiesModulePrivate;
 
 /// \ingroup Slicer_QtModules_ExtensionTemplate
-class Q_SLICER_QTMODULES_VMTKFUNCTIONALITIES_EXPORT
-qSlicerVMTKFunctionalitiesModule
+class Q_SLICER_QTMODULES_VMTKFUNCTIONALITIES_EXPORT qSlicerVMTKFunctionalitiesModule
    : public qSlicerLoadableModule
 {
   Q_OBJECT

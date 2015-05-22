@@ -34,9 +34,9 @@ Version:   $Revision: 1.5 $
 #include "vtkPolyData.h"
 #include "vtkIdList.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkInternalTetrahedraExtractor : public vtkUnstructuredGridAlgorithm
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkInternalTetrahedraExtractor : public vtkUnstructuredGridAlgorithm
 {
   public: 
   vtkTypeMacro(vtkvmtkInternalTetrahedraExtractor,vtkUnstructuredGridAlgorithm);

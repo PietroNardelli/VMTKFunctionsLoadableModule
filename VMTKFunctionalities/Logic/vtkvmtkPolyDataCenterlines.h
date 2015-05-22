@@ -27,16 +27,15 @@ Version:   $Revision: 1.6 $
 
 #include "vtkPolyDataAlgorithm.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
-
 #include "vtkUnstructuredGrid.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
 class vtkPolyData;
 class vtkPoints;
 class vtkIdList;
 class vtkDataArray;
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkPolyDataCenterlines : public vtkPolyDataAlgorithm
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkPolyDataCenterlines : public vtkPolyDataAlgorithm
 {
   public: 
   vtkTypeMacro(vtkvmtkPolyDataCenterlines,vtkPolyDataAlgorithm);

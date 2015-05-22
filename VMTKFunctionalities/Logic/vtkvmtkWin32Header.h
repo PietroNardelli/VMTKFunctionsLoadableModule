@@ -98,7 +98,7 @@
 # pragma warning ( disable : 4702 ) /* Unreachable code.  */
 #endif
 
-#if defined(WIN32) && defined(VTK_VMTK_BUILD_SHARED_LIBS)
+#if defined(WIN32)
 // #define VTK_EXPORT __declspec( dllexport )
 
  #if defined(vtkvmtkCommon_EXPORTS)

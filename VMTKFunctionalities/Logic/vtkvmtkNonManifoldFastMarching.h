@@ -44,7 +44,7 @@ Version:   $Revision: 1.5 $
 #include "vtkvmtkMinHeap.h"
 #include "vtkvmtkConstants.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
 const char VTK_VMTK_ACCEPTED_STATUS = 0x01;
 const char VTK_VMTK_CONSIDERED_STATUS = 0x02;
@@ -53,7 +53,7 @@ const char VTK_VMTK_FAR_STATUS = 0x04;
 class vtkDoubleArray;
 class vtkCharArray;
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkNonManifoldFastMarching : public vtkPolyDataAlgorithm
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkNonManifoldFastMarching : public vtkPolyDataAlgorithm
 {
   public:
   vtkTypeMacro(vtkvmtkNonManifoldFastMarching,vtkPolyDataAlgorithm);

@@ -23,10 +23,12 @@ Version:   $Revision: 1.1 $
 #include "vtkPolyDataAlgorithm.h"
 //#include "vtkvmtkComputationalSmoothingWin32Header.h"
 #include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
 class vtkDoubleArray;
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkCenterlineSmoothing : public vtkPolyDataAlgorithm
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkCenterlineSmoothing 
+	: public vtkPolyDataAlgorithm
 {
   public: 
   vtkTypeMacro(vtkvmtkCenterlineSmoothing,vtkPolyDataAlgorithm);

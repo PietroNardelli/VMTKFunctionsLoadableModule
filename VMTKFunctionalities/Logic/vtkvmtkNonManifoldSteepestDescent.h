@@ -31,12 +31,12 @@ Version:   $Revision: 1.4 $
 #include "vtkPolyDataAlgorithm.h"
 #include "vtkDataArray.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
 #define VTK_VMTK_DOWNWARD 0
 #define VTK_VMTK_UPWARD 1
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkNonManifoldSteepestDescent : public vtkPolyDataAlgorithm
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkNonManifoldSteepestDescent : public vtkPolyDataAlgorithm
 {
   public:
   vtkTypeMacro(vtkvmtkNonManifoldSteepestDescent,vtkPolyDataAlgorithm);

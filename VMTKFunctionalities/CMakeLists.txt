@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-set(MODULE_NAME VMTKFunctionalities)
+set(MODULE_NAME vmtkFunctionalities)
 set(MODULE_TITLE ${MODULE_NAME})
 
 string(TOUPPER ${MODULE_NAME} MODULE_NAME_UPPER)
@@ -48,8 +48,4 @@ slicerMacroBuildQtModule(
   TARGET_LIBRARIES ${MODULE_TARGET_LIBRARIES}
   WITH_GENERIC_TESTS
   )
-
-#-----------------------------------------------------------------------------
-if(BUILD_TESTING)
-endif()
-
+#-------------------------------------------------------------------------------

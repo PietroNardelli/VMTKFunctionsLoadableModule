@@ -44,9 +44,9 @@ Version:   $Revision: 1.4 $
 #include "vtkDoubleArray.h"
 #include "vtkIdList.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkSteepestDescentLineTracer : public vtkvmtkNonManifoldSteepestDescent
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkSteepestDescentLineTracer : public vtkvmtkNonManifoldSteepestDescent
 {
 public:
   vtkTypeMacro(vtkvmtkSteepestDescentLineTracer,vtkvmtkNonManifoldSteepestDescent);

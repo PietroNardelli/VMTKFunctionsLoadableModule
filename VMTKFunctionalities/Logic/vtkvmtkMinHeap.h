@@ -36,9 +36,9 @@ Version:   $Revision: 1.3 $
 #include "vtkObject.h"
 #include "vtkDoubleArray.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkMinHeap : public vtkObject
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkMinHeap : public vtkObject
 {
   public: 
   vtkTypeMacro(vtkvmtkMinHeap,vtkObject);

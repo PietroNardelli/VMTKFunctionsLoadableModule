@@ -30,7 +30,7 @@ Version:   $Revision: 1.4 $
 #include "vtkPolyDataAlgorithm.h"
 #include "vtkIdList.h"
 //#include "vtkvmtkComputationalGeometryWin32Header.h"
-#include "vtkvmtkWin32Header.h"
+#include "vtkSlicervmtkFunctionalitiesModuleLogicExport.h"
 
 #define VTK_VMTK_REMOVE_BOUNDARY_POINTS 0
 #define VTK_VMTK_REMOVE_BOUNDARY_CELLS 1
@@ -39,7 +39,7 @@ class vtkCellArray;
 class vtkCellTypes;
 class vtkCellLinks;
 
-class VTK_VMTK_COMPUTATIONAL_GEOMETRY_EXPORT vtkvmtkSimplifyVoronoiDiagram : public vtkPolyDataAlgorithm
+class VTK_SLICER_VMTKFUNCTIONALITIES_MODULE_LOGIC_EXPORT vtkvmtkSimplifyVoronoiDiagram : public vtkPolyDataAlgorithm
 {
   public: 
   vtkTypeMacro(vtkvmtkSimplifyVoronoiDiagram,vtkPolyDataAlgorithm);
